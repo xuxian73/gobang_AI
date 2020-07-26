@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>五子棋</title>
+        <style>
+            .title{
+            text-align: center;
+            color: black;
+        }
+            .board{
+                display: block;
+                margin: 50px auto;
+                box-shadow:5px 5px 5px gray, -2px -2px 2px darkgray;
+                background-color: burlywood;
+                cursor: pointer;
+            }
+            #start {
+                display: block;
+                margin: auto;
+                padding: 10px 20px;
+                font-size: 20px;
+                text-align: center;
+                border-radius: 5px;
+                color:burlywood;
+                background-color: black;
+            }
+            #start:hover {
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+            .black board {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background-color: black;
+            }
+            .white board {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                box-shadow: darkgrey;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class = "title">五子棋</h1>
+        <canvas class = "board" width="450px" height="450px"></canvas>  
+        <label for="start" onclick="restart()"> 
+            <input id="start" value="Start" type="button" name="Start">
+        </label>
+    </body>
+    <script>
+        var board = document.getElementsByClassName("board")[0];
+        var context = board.getContext("2d"); 
+        context.strokeStyle = "black";
+
+        /* const black board = (
+            <div></div>
+        )
+        const white board = (
+            <div></div>
+        ) */
+        window.onload = function() {
+            drawBoard();
+        }
+        
+        function restart() {
+            window.location.reload();
+        }
+        
+        function drawBoard() {
+            for (var i = 0; i < 15; ++i) {
+                context.moveTo(15,15 + i * 30);
+                context.lineTo(435,15 + i * 30);
+                context.stroke();
+            }
+
+            for (var i = 0; i < 15; ++i) {
+                context.moveTo(15 + i * 30, 15);
+                context.lineTo(15 + i * 30, 435);
+                context.stroke();
+            }
+        }
+
+        var chessboard = [];
+        for (var i = 0; i < 15; ++i) {
+            chessboard[i] = [];
+            for (var j = 0; j < 15; ++j) {
+            chessboard[i][j] = -1;
+            }
+        }
+        
+        var person = true;
+        var offensive = true;
+        var over = false;
+
+        board.onclick = function(e) {
+            
+            if (over) {
+                return;
+            } else if (person == false) {
+                return;
+            }
+
+            var x = e.offsetX;
+            var y = e.offsetY;
+            var i = Math.floor(x / 30);
+            var j = Math.floor(y / 30);
+
+            if  (chessboard[i][j] == -1) {
+                context.beginPath();
+                context.arc(15 + i * 30, 15 + j * 30, 13, 0, 2 * Math.PI);
+                context.closePath();
+                
+                var color = (person && offensive) || (!person && !offensive) ? "black" : "white";
+                chessboard[i][j] = offensive ? 0 : 1;
+                
+                context.fillStyle = color;
+                context.fill();
+                
+                checkWin(i, j, offensive);
+                if (offensive) { 
+                    offensive = false;
+                } else {
+                    offensive = true;
+                }
+            }
+        }
+
+        function checkWin(i, j, role){
+            var l = 0; var r = 0;
+            
+            while(j - l >= 0 && chessboard[i][j - l] == chessboard[i][j]) { ++l; }
+            while(j + r <= 14 && chessboard[i][j + r] == chessboard[i][j]) { ++r; }
+
+            if (l + r >= 6) {
+                if (role) {
+                    alert("Black Wins!");
+                    confirm("confirm");
+                    return;
+                } else {
+                    alert("White Wins!");
+                    confirm("confirm");
+                    return;
+                }
+            }
+
+            l = 0; r = 0;
+            while(i - l >= 0 && chessboard[i-l][j] == chessboard[i][j]) { ++l; }
+            while(i + r < 15 && chessboard[i+r][j] == chessboard[i][j]) { ++r; }
+            if (l + r >= 6) {
+                if (role) {
+                    alert("Black Wins!");
+                    confirm("confirm");
+                    return;
+                } else {
+                    alert("White Wins!");
+                    confirm("confirm");
+                    return;
+                }
+            }
+
+            l = 0; r = 0;
+            while(i - l >= 0 && j - l >= 0 && chessboard[i - l][j - l] == chessboard[i][j]) { ++l; }
+            while(i + r < 15 && j + r < 15 && chessboard[i + r][j + r] == chessboard[i][j]) { ++r; }
+            if (l + r >= 6) {
+                if (role) {
+                    alert("Black Wins!");
+                    confirm("confirm");
+                    return;
+                } else {
+                    alert("White Wins!");
+                    confirm("confirm");
+                    return;
+                }
+            }
+
+            l = 0; r = 0;
+            while(i - l >= 0 && j + l < 15 && chessboard[i - l][j + l] == chessboard[i][j]) { ++l; }
+            while(i + r < 15 && j - r >= 0 && chessboard[i + r][j - r] == chessboard[i][j]) { ++r; }
+            if (l + r >= 6) {
+                if (role) {
+                    alert("Black Wins!");
+                    confirm("confirm");
+                    return;
+                } else {
+                    alert("White Wins!");
+                    confirm("confirm");
+                    return;
+                }
+                
+          }
+        }
+    </script>
+</html>
