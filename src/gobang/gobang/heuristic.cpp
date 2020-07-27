@@ -152,10 +152,13 @@ public:
 		int ret = 0;
 		if (x == -1) return 0;
 		for (int dir = 0; dir < 4; ++dir) {
+			ret += status[x][y][1 - color][dir].heuristic();
+		}
+		ret >>= 1;
+		for (int dir = 0; dir < 4; ++dir) {
 			ret += status[x][y][color][dir].heuristic();
 		}
-		
-			return ret;
+		return ret;
 	}
 			
 	void update_status(const int& x, const int& y, int d) {
@@ -196,7 +199,7 @@ public:
 				
 			    Coordinate cur = *it;
 				ll tmp = get_Heuristic(cur.x, cur.y);
-				
+				if (tmp > int(1e7)) { value = INF; ans = cur; break;}
 			    blank.erase(it);
 			    board.modify(cur, color);
 			    update_status(cur.x, cur.y);
@@ -209,7 +212,7 @@ public:
 				blank.insert(cur);
 				board.modify(cur, -1);
 				update_status(cur.x, cur.y);
-				if (tmp > int(1e7)) { value = INF; break;}
+				
 				it = blank.find(cur);
 				alpha = std::max(value, alpha);
 				if (alpha >= beta) return INF;
@@ -222,7 +225,7 @@ public:
 				Coordinate cur = *it;
 				Coordinate t(-1, -1);
 				ll tmp = -get_Heuristic(cur.x, cur.y);
-				
+				if(tmp < int(-1e7)) { value = NEG_INF; ans = cur; break;}
 				blank.erase(it);
 				board.modify(cur, color);
 				update_status(cur.x, cur.y);
@@ -234,7 +237,7 @@ public:
 				blank.insert(cur);
 				board.modify(cur, -1);
 				update_status(cur.x, cur.y);
-				if(tmp < int(-1e6)) { value = NEG_INF; break;}
+				
 				it = blank.find(cur);
 				beta = std::min(value, beta);
 				if (alpha >= beta) return NEG_INF;
