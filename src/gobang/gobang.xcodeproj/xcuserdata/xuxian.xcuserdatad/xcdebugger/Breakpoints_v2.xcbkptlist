@@ -670,6 +670,38 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "solve_change_white()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "978780AD-C28E-4620-A7D6-3CFA3409A438"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "solve_change_white()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20A7D830-8830-4B4E-B414-F4B5438E706C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "281"
             endingLineNumber = "281"
             landmarkName = "solve_change_white()"
@@ -679,7 +711,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "978780AD-C28E-4620-A7D6-3CFA3409A438"
+            uuid = "B0568D82-9F7D-4A38-ADCC-2849A7D4FD16"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -695,23 +727,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "20A7D830-8830-4B4E-B414-F4B5438E706C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "283"
-            endingLineNumber = "283"
-            landmarkName = "solve_change_white()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B0568D82-9F7D-4A38-ADCC-2849A7D4FD16"
+            uuid = "E349D475-A542-49A6-9E1C-DC545DEFBFBE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -727,22 +743,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E349D475-A542-49A6-9E1C-DC545DEFBFBE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
-            landmarkName = "solve_change_white()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8BFB371A-19D3-4984-8FF5-715365C0E51F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -750,8 +750,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "285"
-            endingLineNumber = "285"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
             landmarkName = "solve_change_white()"
             landmarkType = "7">
          </BreakpointContent>
@@ -766,8 +766,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "288"
-            endingLineNumber = "288"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
             landmarkName = "AI"
             landmarkType = "3">
          </BreakpointContent>
@@ -782,8 +782,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "289"
-            endingLineNumber = "289"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
             landmarkName = "solve_change_black()"
             landmarkType = "7">
          </BreakpointContent>
@@ -798,8 +798,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
             landmarkName = "solve_change_black()"
             landmarkType = "7">
          </BreakpointContent>
@@ -814,42 +814,10 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "299"
-            endingLineNumber = "299"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
             landmarkName = "solve_change_black()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E3DDE039-BC4F-4D93-A8CE-755751C1BFC8 - 76b9f0fa6f532402"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AI::solve_change_black()"
-                  moduleName = "gobang"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xuxian/Desktop/gobang/src/gobang/gobang/heuristic.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "299"
-                  endingLineNumber = "299"
-                  offsetFromSymbolStart = "302">
-               </Location>
-               <Location
-                  uuid = "E3DDE039-BC4F-4D93-A8CE-755751C1BFC8 - 76b9f0fa6f532402"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AI::solve_change_black()"
-                  moduleName = "gobang"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xuxian/Desktop/gobang/src/gobang/gobang/heuristic.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "299"
-                  endingLineNumber = "299"
-                  offsetFromSymbolStart = "326">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -862,8 +830,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
             landmarkName = "solve_change_black()"
             landmarkType = "7">
          </BreakpointContent>
@@ -878,8 +846,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "308"
-            endingLineNumber = "308"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
             landmarkName = "AI"
             landmarkType = "3">
          </BreakpointContent>
@@ -888,6 +856,38 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8B1D5DF5-BD7F-4122-90B6-1B798F81807F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20BF0CEB-A667-4B2D-832D-67AE993FCFF1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "308"
+            endingLineNumber = "308"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D20670D-FCE8-4813-9BB5-5A8795690E2E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -903,7 +903,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "20BF0CEB-A667-4B2D-832D-67AE993FCFF1"
+            uuid = "7CD3276C-D376-4CD2-8F05-A7FA3AD279C7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -912,14 +912,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "310"
             endingLineNumber = "310"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "init()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3D20670D-FCE8-4813-9BB5-5A8795690E2E"
+            uuid = "B6EC24BD-55B1-4CD9-9583-AFDE6E703843"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -928,14 +928,30 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "311"
             endingLineNumber = "311"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "init()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7CD3276C-D376-4CD2-8F05-A7FA3AD279C7"
+            uuid = "288AC22F-C1AD-4447-8431-76A50EC6C0B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "init()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53CDCD35-DEDD-4C1E-B60D-B11E3BE20D24"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -951,54 +967,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B6EC24BD-55B1-4CD9-9583-AFDE6E703843"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "313"
-            endingLineNumber = "313"
-            landmarkName = "init()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "288AC22F-C1AD-4447-8431-76A50EC6C0B7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "315"
-            endingLineNumber = "315"
-            landmarkName = "init()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "53CDCD35-DEDD-4C1E-B60D-B11E3BE20D24"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "314"
-            endingLineNumber = "314"
-            landmarkName = "init()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "183998EF-3F13-4DFA-8631-E2C55D112870"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1006,9 +974,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1023,9 +991,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1039,9 +1007,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1056,9 +1024,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "222"
-            endingLineNumber = "222"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1072,9 +1040,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1088,9 +1056,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1104,9 +1072,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "228"
-            endingLineNumber = "228"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1120,8 +1088,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "update_status(x, y, d)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1130,6 +1098,22 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BE8566A6-985C-4F1C-8A73-8E2A907FC745"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "update_status(x, y, d)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1057DA06-97ED-4988-961F-A7FCE718D758"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1145,7 +1129,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1057DA06-97ED-4988-961F-A7FCE718D758"
+            uuid = "0E60DB39-828B-43E0-BB82-FE8417FE082F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1154,22 +1138,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "179"
             endingLineNumber = "179"
-            landmarkName = "update_status(x, y, d)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0E60DB39-828B-43E0-BB82-FE8417FE082F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
             landmarkName = "update_status(x, y)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1184,8 +1152,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "update_status(x, y)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1200,8 +1168,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
             landmarkName = "AI"
             landmarkType = "3">
          </BreakpointContent>
@@ -1210,6 +1178,38 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8E04555C-F0D2-4DC4-B2C8-6914018E773E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "get_Heuristic(x, y, color)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E486775-EA95-41AF-82A7-EB862586919C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "get_Heuristic(x, y, color)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "137A2E4B-039B-4510-98EB-B510FB19C00E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1225,7 +1225,23 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2E486775-EA95-41AF-82A7-EB862586919C"
+            uuid = "2F80F328-917C-4721-B6A8-085938D3D268"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "AI"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B50FA13-8FB6-4C61-BC6E-A8BF24EBB2A6"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1241,39 +1257,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "137A2E4B-039B-4510-98EB-B510FB19C00E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
-            landmarkName = "get_Heuristic(x, y, color)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2F80F328-917C-4721-B6A8-085938D3D268"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
-            landmarkName = "AI"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7B50FA13-8FB6-4C61-BC6E-A8BF24EBB2A6"
+            uuid = "F6272DBB-3089-44BA-BF7E-78C3E9133616"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1282,14 +1266,30 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "165"
             endingLineNumber = "165"
-            landmarkName = "get_Heuristic(x, y, color)"
+            landmarkName = "update_status(x, y, d)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F6272DBB-3089-44BA-BF7E-78C3E9133616"
+            uuid = "5A06F1B1-C348-477D-BF12-00184DF26EA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "update_status(x, y, d)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAF467DE-5A70-4F81-B1CC-8FB9A16EBF5E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1305,7 +1305,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5A06F1B1-C348-477D-BF12-00184DF26EA7"
+            uuid = "69D9885A-8D19-4EA4-9CC9-3A48B3FF70BB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1321,7 +1321,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AAF467DE-5A70-4F81-B1CC-8FB9A16EBF5E"
+            uuid = "3600D148-CB32-41CB-9148-3F9E230FBC15"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1337,38 +1337,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "69D9885A-8D19-4EA4-9CC9-3A48B3FF70BB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
-            landmarkName = "update_status(x, y, d)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3600D148-CB32-41CB-9148-3F9E230FBC15"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
-            landmarkName = "update_status(x, y, d)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A66F0B6E-CE3F-49A8-92C4-39335E86996E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1376,9 +1344,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "229"
-            endingLineNumber = "229"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1392,9 +1360,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1408,9 +1376,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "231"
-            endingLineNumber = "231"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1424,9 +1392,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "232"
-            endingLineNumber = "232"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1440,9 +1408,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1456,9 +1424,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "234"
-            endingLineNumber = "234"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1472,9 +1440,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "235"
-            endingLineNumber = "235"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1488,9 +1456,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1504,9 +1472,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1520,9 +1488,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1536,9 +1504,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1552,9 +1520,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "241"
-            endingLineNumber = "241"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1569,8 +1537,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
             landmarkName = "solve_change_white()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1586,8 +1554,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
             landmarkName = "update_status(x, y, d)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1602,8 +1570,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "AI"
             landmarkType = "3">
          </BreakpointContent>
@@ -1618,8 +1586,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "get_Heuristic(x, y)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1628,38 +1596,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F3B673F4-7E47-417A-9426-57F9EB4D6732"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "get_Heuristic(x, y)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B8F22472-3E07-4294-8656-14FE00109806"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gobang/heuristic.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "get_Heuristic(x, y)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "62869206-EBBC-4239-8397-5C642CDC6FA5"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1675,6 +1611,38 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "B8F22472-3E07-4294-8656-14FE00109806"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "get_Heuristic(x, y)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62869206-EBBC-4239-8397-5C642CDC6FA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gobang/heuristic.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "get_Heuristic(x, y)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "FF00D9A8-0E5D-48F0-942B-0E7E1A02DE3A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1682,8 +1650,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "get_Heuristic(x, y)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1699,9 +1667,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1715,9 +1683,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1732,9 +1700,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1748,8 +1716,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "update_status(x, y)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1764,9 +1732,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1780,9 +1748,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1796,9 +1764,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1812,9 +1780,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1828,9 +1796,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1844,9 +1812,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "207"
-            endingLineNumber = "207"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1860,9 +1828,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1876,9 +1844,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1892,9 +1860,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1908,9 +1876,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1924,9 +1892,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1940,9 +1908,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "214"
-            endingLineNumber = "214"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1956,9 +1924,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1972,8 +1940,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
             landmarkName = "solve_change_black()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1988,8 +1956,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "292"
-            endingLineNumber = "292"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
             landmarkName = "solve_change_black()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2004,9 +1972,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2020,9 +1988,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2036,9 +2004,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2052,8 +2020,8 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "316"
-            endingLineNumber = "316"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
             landmarkName = "init()"
             landmarkType = "9">
          </BreakpointContent>
@@ -2068,9 +2036,9 @@
             filePath = "gobang/heuristic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
-            landmarkName = "minimax(coor, depth, alpha, beta, color, ans, width)"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "minimax(depth, alpha, beta, color, ans, width)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

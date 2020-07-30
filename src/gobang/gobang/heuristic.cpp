@@ -25,15 +25,11 @@ static int point[2][6] = {
 
 const int DEFAULT_DEPTH = 10;
 
-const int SPECIFIC_DEPTH = 6;
-
 const long long NEG_INF = -1000000000000000000;
 
 const long long INF = 1000000000000000000;
 
 int WIDTH[15] =  {0, 2, 3, 3, 3, 3, 3, 5, 6, 7, 9};
-
-int BLACK_WIDTH[13] = {0, 3, 3, 3, 4, 5, 7};
 
 class Coordinate {
 public:
@@ -193,7 +189,7 @@ public:
 		}
 	}
 
-	ll minimax(Coordinate coor, int depth, ll alpha, ll beta, int color, Coordinate& ans, int* width)
+	ll minimax(int depth, ll alpha, ll beta, int color, Coordinate& ans, int* width)
 	{
 		if (depth == 0) return 0;
 		ll value;
@@ -208,7 +204,7 @@ public:
 				board.modify(cur, color);
 				update_status(cur.x, cur.y);
 				Coordinate t(-1, -1);
-				tmp += minimax( cur, depth - 1, alpha - tmp, beta - tmp, 1 - color, t, width);
+				tmp += minimax(depth - 1, alpha - tmp, beta - tmp, 1 - color, t, width);
 				if (tmp > value) {
 					value = tmp;
 					ans = cur;
@@ -232,7 +228,7 @@ public:
 				blank.erase(it);
 				board.modify(cur, color);
 				update_status(cur.x, cur.y);
-				tmp += minimax(cur, depth - 1, alpha - tmp, beta - tmp, 1 - color, t, width);
+				tmp += minimax(depth - 1, alpha - tmp, beta - tmp, 1 - color, t, width);
 				if (tmp < value) {
 					value = tmp;
 					ans = cur;
@@ -277,7 +273,7 @@ public:
 
 	std::pair<int, int> solve_change_white() {
 		Coordinate t(-1, -1);
-		if (value_flip(ai_side) - minimax(Coordinate(-1, -1), DEFAULT_DEPTH - 1, INF, NEG_INF, ai_side, t, WIDTH) < minimax(Coordinate(-1, -1), DEFAULT_DEPTH, INF, NEG_INF, ai_side, t, WIDTH)) {
+		if (value_flip(ai_side) - minimax(DEFAULT_DEPTH - 1, INF, NEG_INF, ai_side, t, WIDTH) < minimax(DEFAULT_DEPTH, INF, NEG_INF, ai_side, t, WIDTH)) {
 			board.modify(t, ai_side);
 			blank.erase(Coordinate(t.x, t.y, get_Heuristic(t.x, t.y)));
 			update_status(t.x, t.y);
@@ -366,7 +362,7 @@ std::pair<int, int> action(std::pair<int, int> loc) {
 	}
 	
 	for (int i = 6; i <= DEFAULT_DEPTH; i += 2) {
-		if ( myAI.minimax(Coordinate(-1, -1), i, NEG_INF, INF, ai_side, ans, WIDTH) > 1000000) {
+		if ( myAI.minimax(i, NEG_INF, INF, ai_side, ans, WIDTH) > 1000000) {
 			{
 				myAI.board.modify(ans, ai_side);
 				myAI.blank.erase(Coordinate(ans.x, ans.y, myAI.get_Heuristic(ans.x, ans.y)));
