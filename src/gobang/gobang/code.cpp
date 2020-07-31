@@ -106,7 +106,7 @@ struct Heuristic {
 		return l + r;
 	}
 
-	int heuristic(){
+	int atk_heuristic(){
 		if(len() == 5) return int(1e7);
 		if (!lblank and !rblank) return 0;
 		return point[lblank ^ rblank][len()];
@@ -143,7 +143,7 @@ public:
 		if (x == -1) return 0;
 		for (int color = 0; color <= 1; ++color)
 			for (int dir = 0; dir < 4; ++dir) {
-				ret += status[x][y][color][dir].heuristic();
+				ret += status[x][y][color][dir].atk_heuristic();
 			}
 		return ret;
 		
@@ -157,7 +157,7 @@ public:
 		}
 	
 		for (int dir = 0; dir < 4; ++dir) {
-			ret += status[x][y][color][dir].heuristic();
+			ret += status[x][y][color][dir].atk_heuristic();
 		}
 		return ret;
 	}

@@ -316,18 +316,18 @@ void MainWindow::on_change_clicked()
 
 void MainWindow::on_givein_clicked()
 {
-    QMessageBox::StandardButton rb = QMessageBox::question(NULL, "confirm", "Are you sure to give in?", QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+    QMessageBox::StandardButton rb = QMessageBox::question(NULL, "confirm", "你确定要认输吗?", QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
     if (rb == QMessageBox::Yes) {
         if (mode == Mode::PVP) {
             if (currentPlayer == 0) {
-                QMessageBox message(QMessageBox::NoIcon, "confirm", "Black give in. White Wins!");
+                QMessageBox message(QMessageBox::NoIcon, "confirm", "黑子认输，白子获胜!");
                 message.exec();
             } else {
-                QMessageBox message(QMessageBox::NoIcon, "confirm", "Black give in. White Wins!");
+                QMessageBox message(QMessageBox::NoIcon, "confirm", "白子认输，黑子获胜!");
                 message.exec();
             }
         } else {
-            QMessageBox message(QMessageBox::NoIcon, "confirm", "You give in. AI Wins!");
+            QMessageBox message(QMessageBox::NoIcon, "confirm", "很遗憾，你认输了，AI获胜!");
             message.exec();
         }
         initGame();
@@ -337,7 +337,7 @@ void MainWindow::on_givein_clicked()
 
 void MainWindow::on_retract_clicked()
 {
-    QMessageBox::StandardButton rb = QMessageBox::question(NULL, "confirm", "Are you sure to retract?", QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+    QMessageBox::StandardButton rb = QMessageBox::question(NULL, "confirm", "你确定要悔棋吗?", QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
     if (rb == QMessageBox::Yes) {
         board[clickCol][clickRow] = -1;
         update();
@@ -373,19 +373,19 @@ void MainWindow::refresh(){
 void MainWindow::showWin(int color) {
     if (mode == Mode::PVP) {
         if (color == 0) {
-            QMessageBox message(QMessageBox::NoIcon, "confirm", "Black Wins!");
+            QMessageBox message(QMessageBox::NoIcon, "confirm", "黑子获胜!");
             message.exec();
 
         } else {
-            QMessageBox message(QMessageBox::NoIcon, "confirm", "White Wins!");
+            QMessageBox message(QMessageBox::NoIcon, "confirm", "白子获胜!");
             message.exec();
         }
     } else {
         if (color == ai_side) {
-            QMessageBox message(QMessageBox::NoIcon, "confirm", "AI Wins!");
+            QMessageBox message(QMessageBox::NoIcon, "confirm", "AI 获胜!");
             message.exec();
         } else {
-            QMessageBox message(QMessageBox::NoIcon, "confirm", "Congratulations! You defeat AI!");
+            QMessageBox message(QMessageBox::NoIcon, "confirm", "Congratulations! 你战胜了AI！");
             message.exec();
         }
     }

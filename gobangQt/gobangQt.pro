@@ -20,7 +20,6 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
-    GameModel.h \
     chat.h \
     heuristic.h \
     mainwindow.h
@@ -32,3 +31,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resource.qrc

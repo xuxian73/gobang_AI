@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D7869DE824C6F07C00938172 /* old_version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7869DE724C6F07C00938172 /* old_version.cpp */; };
-		D7869DED24C91B2000938172 /* heuristic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7869DEC24C91B2000938172 /* heuristic.cpp */; };
+		D7B8137824D3B9D600F54A26 /* code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7B8137724D3B9D600F54A26 /* code.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		D7869DAD24C0339F00938172 /* AIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIController.h; sourceTree = "<group>"; };
 		D7869DE724C6F07C00938172 /* old_version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = old_version.cpp; sourceTree = "<group>"; };
 		D7869DE924C6F12800938172 /* Coordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
-		D7869DEC24C91B2000938172 /* heuristic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heuristic.cpp; sourceTree = "<group>"; };
+		D7B8137724D3B9D600F54A26 /* code.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = code.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				D7869DE724C6F07C00938172 /* old_version.cpp */,
-				D7869DEC24C91B2000938172 /* heuristic.cpp */,
+				D7B8137724D3B9D600F54A26 /* code.cpp */,
 				D7869DAD24C0339F00938172 /* AIController.h */,
 				D7869DE924C6F12800938172 /* Coordinate.h */,
 			);
@@ -126,8 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B8137824D3B9D600F54A26 /* code.cpp in Sources */,
 				D7869DE824C6F07C00938172 /* old_version.cpp in Sources */,
-				D7869DED24C91B2000938172 /* heuristic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
